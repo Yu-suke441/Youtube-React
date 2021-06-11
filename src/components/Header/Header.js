@@ -6,10 +6,10 @@ import Style from './Header.module.scss'
 const Header = () => {
     return (
         <div className={Style.header}>
-            <div>
+            <div className={Style.item}>
                 <Link to="/">OreTube</Link>
             </div>
-            <div>
+            <div className={Style.item}>
                 <form>
                     <input type="text" placeholder="検索" />
                     <button type="submit"><FontAwesomeIcon icon={faSearch} /></button>
