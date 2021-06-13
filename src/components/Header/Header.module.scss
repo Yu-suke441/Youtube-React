@@ -6,6 +6,7 @@
   height: 56px;
   width: 100%;
   background-color: blue;
+  z-index: 1;
   a {
     color: white;
     font-size: 1.2rem;
@@ -31,7 +32,6 @@
       text-indent: 0.5rem;
       border: #121212;
       background-color: white;
-      color: white;
     }
     button {
       width: 20%;
