@@ -1,2 +1,2 @@
 node_modules
-src/apis/config.js
+src/apis/index.js
