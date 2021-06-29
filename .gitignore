@@ -1,2 +1,2 @@
 node_modules
-src/apis/index.js
+./src/apis/index.js
