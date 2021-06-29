@@ -1,10 +1,10 @@
 import axios from 'axios'
 
 
+var config = require('./config');
 
 
-
-const KEY = 'AIzaSyBk-NlPeSoRlAxbVC8iaYja3QzJVXLwrs4'
+const KEY = config.KEY
 
 const youtube = axios.create ({
     baseURL: 'https://www.googleapis.com/youtube/v3'
